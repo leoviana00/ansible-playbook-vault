@@ -60,7 +60,7 @@ $ ssh-copy-id root@192.168.10.2
 
 - Caso queira copiar uma chave em específico
 ```bash
-$ ssh-copy-id -i ~/.ssh/ansible root@192.168.10.3
+$ ssh-copy-id -i ~/.ssh/ansible root@192.168.10.2
 ```
 
 - Ele irá pedir a senha, entra com a senha que você atribuiu ao root em um dos passos acima
