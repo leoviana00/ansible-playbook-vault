@@ -1,0 +1,16 @@
+---
+- name: Configurar máquinas
+  hosts: vault
+  user: root
+  tags: 
+    - setup
+  roles:
+    - configure-host
+
+- name: Deploy Vault
+  hosts: vault
+  remote_user: vagrant
+  tags:
+    - vault
+  roles:
+    - vault
