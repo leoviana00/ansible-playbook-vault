@@ -4,5 +4,5 @@ all:
     ambiente: virtualbox
 
   hosts:
-    vault:
+    vault-01:
       ansible_host: 192.168.10.2

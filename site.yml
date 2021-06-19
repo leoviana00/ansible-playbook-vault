@@ -1,6 +1,6 @@
 ---
 - name: Configurar máquinas
-  hosts: vault
+  hosts: vault-01
   user: root
   tags: 
     - setup
@@ -8,7 +8,7 @@
     - configure-host
 
 - name: Deploy Vault
-  hosts: vault
+  hosts: vault-01
   remote_user: vagrant
   tags:
     - vault

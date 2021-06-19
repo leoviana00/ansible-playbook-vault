@@ -132,7 +132,7 @@ $ vault operator unseal twsRerHt+LxICDO1at80CNMs8XOSyXqdfu/9HvQOlH7O
 
 - Chave `root` utilizada para logar no Vault: Tanto via cli quanto web:
 ```bash
-"Initial Root Token": s.9eUwoazl1jjieDHJpSM2ErR4
+vault login s.9eUwoazl1jjieDHJpSM2ErR4
 ```
 
 - Habilitar um dispositivo de auditoria que mantém um registro detalhado de todas as solicitações e respostas ao Vaul
