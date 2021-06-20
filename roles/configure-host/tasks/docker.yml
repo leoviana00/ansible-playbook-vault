@@ -67,7 +67,7 @@
 #     src: templates/daemon.json.j2
 #     dest: /etc/docker/daemon.json
 
-- name: Restartr serviço do docker
+- name: Restartar serviço do docker
   service:
     name: docker
     enabled: yes
